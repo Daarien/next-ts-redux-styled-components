@@ -1,0 +1,39 @@
+{
+  "name": "next-announcements",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "next build && next export && touch ./out/.nojekyll",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@zeit/next-css": "1.0.1",
+    "@zeit/next-typescript": "1.1.1",
+    "bootstrap": "4.3.1",
+    "next": "8.1.0",
+    "next-redux-wrapper": "^3.0.0-alpha.2",
+    "polished": "3.3.0",
+    "react": "16.8.6",
+    "react-bootstrap": "1.0.0-beta.8",
+    "react-dom": "16.8.6",
+    "react-redux": "7.0.3",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "2.3.0",
+    "styled-components": "4.2.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/next": "8.0.5",
+    "@types/next-redux-wrapper": "2.0.2",
+    "@types/react": "16.8.17",
+    "@types/react-redux": "7.0.9",
+    "@types/styled-components": "4.1.15",
+    "@types/styled-jsx": "2.2.8",
+    "babel-plugin-module-resolver": "3.2.0",
+    "babel-plugin-styled-components": "1.10.0",
+    "typesafe-actions": "4.3.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "presets": ["next/babel", "@zeit/next-typescript/babel"],
+  "plugins": [
+    ["styled-components", { "ssr": true }],
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./src/components",
+          "interfaces": "./src/interfaces",
+          "static": "./static",
+          "store": "./src/store",
+          "theme": "./src/theme",
+          "utils": "./src/utils",
+          "img": "./static/img/",
+          "server": "./server"
+        }
+      }
+    ]
+  ]
+}
